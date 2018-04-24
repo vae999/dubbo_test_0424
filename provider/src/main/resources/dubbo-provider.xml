@@ -8,6 +8,7 @@
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <dubbo:application name="dubbo-provider" />
+    <!-- Replace your zookeeper address -->
     <dubbo:registry  protocol="zookeeper" address="192.168.31.129:2181" />
     <dubbo:protocol name="dubbo" port="20880" />
 
